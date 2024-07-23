@@ -1,0 +1,30 @@
+
+html, body {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #282828;
+	padding: 1rem;
+	margin: 0;
+}
+
+header {
+	text-align: center;
+	color: #fff;
+}
+
+article {
+	text-align: center;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+	box-shadow: 0 0 16px #0000004d;
+	transition: transform .5s ease;
+}
+img:hover {
+	transform: scale(1.025);
+}
+

@@ -1,0 +1,25 @@
+{
+	"name": "electron-base",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"start": "electron .",
+		"build": "electron-builder"
+	},
+	"build": {
+		"win": {
+			"icon": "icon.png"
+		},
+		"linux": {
+			"icon": "icon.png"
+		}
+	},
+	"keywords": [],
+	"author": "Giordano de Brito",
+	"license": "ISC",
+	"description": "Example electron app for future projects.",
+	"devDependencies": {
+		"electron": "^31.2.1",
+		"electron-builder": "^24.13.3"
+	}
+}

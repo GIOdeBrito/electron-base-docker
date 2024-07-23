@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    app:
+        image: elec-img:latest
+        container_name: electron-app
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "3000:8080"
+        tty: true
